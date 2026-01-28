@@ -106,5 +106,4 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/.cargo/bin:$PATH"
 
 alias emacs="emacsclient -c -a 'emacs'"
-export PATH="$HOME/.config/emacs/bin:$PATH"
 export EMACS_USER_DIRECTORY="$HOME/.emacs.d"

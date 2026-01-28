@@ -1,3 +1,4 @@
+
 * This is a plan atm, the config is not finished (it never will tbh).
 
 * Nico's Emacs config.
@@ -7,7 +8,9 @@
 ** ~/.emacs.d/..
 *** init.el
 Used for basic stuff at the moment, it will contain all the logic of how to combine all my config in the future.
-Explore if i need to use an 'early-init.el' shi.
+
+*** early-init.el
+eval things Ini the beninging in the the beginningat the https://www.youtube.com/watch?v=TWEp_Z9gLCo
 
 *** appearence.el
 UI bullshi, I plan to use it to store my theme and UI changes I make in code. UI packages will be handled in modules/ dir.
@@ -16,17 +19,17 @@ UI bullshi, I plan to use it to store my theme and UI changes I make in code. UI
 Keybindings I make with elisp to control emacs (duhh). I might explore using some evil shi', but removing TRASH vim things to INSERT or :q.
 
 *** custom.el
-File for emacs to touch with my consent(?). This will store edits done via M-x i think. ;;TODO check
+File for emacs to touch with my consent (¬‿¬). This will store edits done via M-x i think. ;;TODO check
 
 *** modules/
-This this will handle all my external packages, I will store them here to have a clean root config dir (and avoid having a bloated init too)
+This this will handle all my external packages, I will store them here to have a clean root config dir (and avoid having a bloated init.el too)
 This is copie... inspired by the package management of doom emacs. 
 
 **** lang/
 All languages related packages (like lsp servers, modes, and stuff)
 
 **** tools/
-Tools for daily use. Like TERRAFORM JAJAJAJJA.
+Tools for daily use.
 
 **** checkers/
 grammar, syntax, spell. Not a priority atm.
@@ -37,16 +40,28 @@ specific packages for editing files upgrades.
 **** ui/
 UI related packages (duh). Not in appearence.el because they are packages (duh). 
 
+**** os/
+Mac bullshihh for now (one day linux too)
+
+**** themes/
+Packages only for theme related stuff
+
 * Structure schema
+
+#+BEGIN_SRC
 .emacs.d/
 ├── appearence.el
 ├── custom.el
+├── early-init.el
 ├── init.el
 ├── keybinds.el
 ├── modules
 │   ├── checkers/
 │   ├── editor/
 │   ├── lang/
+│   ├── os/
+│   ├── themes/ 
 │   ├── tools/
 │   └── ui/
 └── structure.org
+#+END_SRC

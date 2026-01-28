@@ -1,1 +1,8 @@
 .emacs.d/tmp/*
+.emacs.d/eln-cache/*
+.emacs.d/elpa/*
+.emacs.d/etc/*
+.emacs.d/var/*
+.emacs.d/elpaca/*
+.emacs.d/recentf
+.emacs.d/projects
