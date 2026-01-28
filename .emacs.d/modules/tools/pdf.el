@@ -1,5 +1,3 @@
-;;; -*- lexical-binding: t; -*-
-
 ;; https://codeberg.org/divyaranjan/emacs-reader
 ;; NOTE: this package has mupdf as dependency
 ;; brew install mupdf

@@ -1,5 +1,3 @@
-;;; -*- lexical-binding = t; -*-
-
 ;;https://github.com/seagle0128/doom-modeline
 
 (use-package doom-modeline

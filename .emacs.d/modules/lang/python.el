@@ -1,1 +1,1 @@
-;;-*- lexical-binding: t; -*-
+;;; Nothing to see here bruv

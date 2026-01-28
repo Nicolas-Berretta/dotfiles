@@ -1,4 +1,3 @@
-;; -*- lexical-binding = t -*-
 
 (setq initial-buffer-choice (lambda () (get-buffer-create dashboard-buffer-name)))
 

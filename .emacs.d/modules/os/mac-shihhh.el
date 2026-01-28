@@ -1,5 +1,3 @@
-;;; -*- lexical-binding = t; -*-
-
 ;; Sane trackpad/mouse scroll settings. Also disables smooth scrolling because
 ;; it's disturbingly clunky and slow without something like
 ;; jdtsmith/ultra-scroll-mac.
